@@ -2,30 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc0b230c-02e6-4ed1-933e-1ada566e6181" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bg1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bg2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bg3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psd/content 1920.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psd/content 640.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psd/content 800.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/img1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/img2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psd/main1920 правки.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psd/main640.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psd/main800.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psd/main1920 правки-assets/errors.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-1.9.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/js.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/media.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/media.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/scss/media.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/style.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/scss/style.scss.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/scss/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/jquery.bxslider.css" afterPath="$PROJECT_DIR$/css/jquery.bxslider.css" />
     </list>
     <ignored path="Nestle.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -97,10 +74,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/css/scss/media.scss" />
-        <option value="$PROJECT_DIR$/css/jquery.bxslider.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/js.js" />
         <option value="$PROJECT_DIR$/css/scss/style.scss" />
+        <option value="$PROJECT_DIR$/css/jquery.bxslider.css" />
       </list>
     </option>
   </component>
@@ -269,14 +246,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/jquery.bxslider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5740743">
-          <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/js.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -292,6 +261,14 @@
           <folding>
             <element signature="e#2081#2437#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/jquery.bxslider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.8819242">
+          <caret line="81" column="1" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
