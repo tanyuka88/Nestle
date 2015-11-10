@@ -4,4 +4,11 @@ jQuery(document).ready(function($){
         mode: "fade",
         auto: false
     });
+
+    $("header .top-menu .main-top-menu > li").click(function(){
+        $(this).find("ul").toggle();
+    });
+    $(".close").click(function(){
+        $(".top-menu").toggle();
+    })
 });
