@@ -1,3 +1,12 @@
+@mixin rounded-top-corners($radius) {
+  -moz-border-top-left-radius: $radius;
+  -khtml-border-top-left-radius: $radius;
+  -webkit-border-top-left-radius:$radius;
+  -moz-border-top-right-radius: $radius;
+  -khtml-border-top-right-radius: $radius;
+  -webkit-border-top-right-radius: $radius;
+}
+
 @media (max-width: 1200px){
   .container{
     width: 98%;
@@ -30,10 +39,31 @@
   .text-on-slider{
     h4{
       font-size: 30px;
-      margin: 20px 0 0 0;
     }
   }
 }
+  .bx-wrapper .bx-next{
+    right:2% !important;
+  }
+  .bx-wrapper .bx-prev{
+    left:2% !important;
+  }
+  header{
+    .top-menu{
+      .main-top-menu{
+        >li{
+          ul li{
+            a{
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+  .content{
+    padding: 0;
+  }
 }
 @media (max-width: 970px){
   .wrapper{
@@ -45,6 +75,11 @@
         .advertisement{
           width: 100%;
           div{
+            >div{
+              p{
+                font-size: 13px;
+              }
+            }
             h3{
               font-size: 17px;
             }
@@ -57,11 +92,22 @@
 
   header{
     .top-menu{
+      #back-border{
+        width: 119px;
+      }
       .main-top-menu{
         li{
           a{
             font-size: 12px;
             margin: 0 11px;
+          }
+          ul{
+            li{
+              a{
+                font-size: 12px;
+                margin: 0;
+              }
+            }
           }
         }
       }
@@ -80,8 +126,46 @@
       }
     }
   }
+
 }
 @media (max-width: 799px){
+  .tab-white{
+    bottom: 0;
+  }
+  header .top-menu{
+    width: 50%;
+    min-width: 300px;
+    height: auto;
+    border: none;
+    position: absolute;
+    background:#0f96dc !important;
+    z-index: 99999;
+    #pink{
+      display: none;
+    }
+    #back-border{
+      display: none;
+    }
+  }
+  header .top-menu .main-top-menu{
+    float: none;
+  }
+  header .top-menu .main-top-menu > li{
+    float: none;
+    padding: 10px 10px;
+    text-align: left;
+    border-right: 0;
+    ul{
+      width: 100%;
+      position: relative;
+      top:0;
+      padding: 15px 0;
+    }
+    a{
+      font-weight: normal;
+      font-size: 17px;
+    }
+  }
   .container{
     width: 98%;
     min-width: 100%;
@@ -122,5 +206,128 @@
   .bx-wrapper .bx-pager{
     position: absolute;
     bottom: -24px !important;
+  }
+  .bx-wrapper {
+    img{
+      width: 100%;
+      min-width: 177% !important;
+      position: relative;
+      left: -45%;
+    }
+  }
+  .content-button{
+    span img{
+      width: 5px;
+    }
+  }
+  .content{
+    .container{
+      min-width: 100%;
+    }
+  }
+
+}
+@media (max-width: 640px){
+  .bx-wrapper {
+    img{
+      width: 100%;
+      min-width: 200% !important;
+      position: relative;
+      left: -60%;
+    }
+  }
+  .bx-wrapper .bx-controls-direction a{
+    display: none;
+  }
+  .bx-wrapper .bx-pager.bx-default-pager a{
+    background-color: #d5d5d5 !important;
+  }
+  .bx-wrapper .bx-pager.bx-default-pager a:hover{
+    background-color: #00aeef !important;
+  }
+  .wrapper{
+    .info{
+      .container{
+        .news{
+          margin-bottom: 0;
+          div{
+            width:95%;
+            float: none;
+            margin: 15px auto;
+          }
+        }
+        .advertisement{
+          text-align: center;
+          >div{
+            float: none;
+            width: 95%;
+            margin: 0 auto 32px auto;
+            border:none;
+            background-image: none !important;
+            >div{
+              position: relative;
+              padding: 0 0 20px 0;
+              background:white !important;
+              .more{
+                display: none;
+              }
+              h3{
+                position: absolute;
+                right: 0;
+                left: 0;
+                top: 30px;
+                color:white;
+              }
+              p{
+                padding: 0 40px;
+              }
+              >img{
+                @include rounded-top-corners(9px);
+                width: 100%;
+                float: none;
+                margin:0;
+              }
+            }
+          }
+        }
+      }
+    }
+    .watch-video{
+      display: block;
+      text-align: center;
+    }
+  }
+
+  footer{
+    .container{
+      >img{
+        width: 90%;
+        max-width: 336px;
+      }
+    }
+  }
+  footer ul li{
+    width: 100%;
+    text-align: center;
+    padding:10px 15px;
+  }
+  footer .countries{
+    width: 70%;
+    >div{
+      width: 50%;
+    }
+  }
+  header{
+    .container{
+      .langs{
+          display: none;
+      }
+      .lang-mobile{
+          display: block;
+      }
+    }
+  }
+  .content{
+    margin-top: 30px;
   }
 }
